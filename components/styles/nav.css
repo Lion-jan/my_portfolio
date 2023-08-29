@@ -1,0 +1,42 @@
+.my-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.my-logo h2 {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.my-links ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.my-links ul a {
+    text-decoration: none;
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.navbar {
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    position:fixed;
+    top: 0;
+    display: flex;
+  gap: 886px;
+  background-color: #282c33;
+  z-index: 999;
+    
+    
+}
+

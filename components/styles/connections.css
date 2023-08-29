@@ -1,0 +1,65 @@
+#connections h4{
+    color: var(--white, #FFF);
+    font-size: 32px;
+    font-weight: 500;
+    border-bottom: 1px solid red;
+    padding-bottom: 10px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+#connections{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.contact-links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.contact-links ul a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #f9f9f9;
+
+}
+
+.fa-brands, .fa-solid{
+    font-size: 30px;
+
+}
+
+.contact h3{
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+.connections{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    padding-top: 30px;
+}
+
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+
+.dot-line{
+    display: flex;
+    gap: 4px;
+    padding-top: 5px;
+}

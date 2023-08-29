@@ -1,0 +1,139 @@
+.me-image {
+    background-image: url(../../public/images/my-real-img.jpg);
+    background-repeat: no-repeat;
+    width: 281px;
+    height: 348px;
+    border-radius: 49% 49% 0 0;
+    background-position: left;
+
+    background-size: cover;
+    transform: scale(1.3);
+    padding-top: 346px;
+}
+
+
+.me-text {
+    flex-basis: 40%;
+}
+
+.me-text h1 {
+    color: var(--white, #FFF);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.me-text h4 {
+    color: var(--gray, #ABB2BF);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
+
+.me-text a {
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #C778DD;
+    border-radius: 10px ;
+
+
+}
+
+.me-text a:hover {
+    background-color: #c778dd;
+    transition: background 0.2s;
+    border-radius: 10px;
+}
+
+
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 350px;
+    margin-top: 200px;
+}
+
+text-color {
+    color: red;
+}
+
+text-red {
+    color: red;
+}
+
+.class-bottom {
+
+    gap: 10px;
+    padding: 8px;
+    border: 1px solid #121418;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.square {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    animation: square-jumping 5s 0s infinite;
+    position: absolute;
+    z-index: -2;
+}
+
+.bottom-text h4 {
+    text-align: center;
+    color: var(--gray, #ABB2BF);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+@keyframes square-jumping {
+    from {
+        transform: rotate(0deg);
+        left: -20px;
+
+    }
+
+    to {
+        transform: rotate(900deg);
+        left: 300px;
+    }
+
+}
+
+
+.my-motto h2{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 32px;
+   border: 1px solid #C778DD;
+   display: inline;
+   letter-spacing: 5px;
+}
+
+.my-motto{
+    margin-top: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.tick1{
+    position: absolute;
+    top: -43px;
+    left: 413px;
+    background-color: #282c33;
+
+}
+
+.tick2{
+    position: absolute;
+    bottom: -43px;
+    right: 413px;
+    background-color: #282c33;
+}

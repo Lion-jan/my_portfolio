@@ -1,0 +1,27 @@
+#about-me h4{
+    color: var(--white, #FFF);
+font-size: 32px;
+font-weight: 500;
+border-bottom: 1px solid red;
+padding-bottom: 10px;
+letter-spacing: 10px;
+text-align: center;
+}
+
+
+.about-me p{
+    color: var(--gray, #ABB2BF);
+font-size: 16px;
+font-weight: 400;
+}
+
+.about-me {
+    padding-left: 200px;
+    padding-right: 300px;
+    padding:20px 300px 100px 200px;
+    
+}
+
+#about-me{
+    margin-top: 100px;
+}

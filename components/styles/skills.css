@@ -1,0 +1,71 @@
+#skills h4{
+    color: var(--white, #FFF);
+font-size: 32px;
+font-weight: 500;
+border-bottom: 1px solid red;
+padding-bottom: 10px;
+letter-spacing: 10px;
+text-align: center;
+}
+
+#skills{
+    margin-top: 200px;
+    padding-bottom: 100px;
+}
+
+.skill-card h2{
+    font-size: 64px;
+    padding: 30px;
+    /* background-color: #ac4949; */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgb(56, 55, 55);
+
+}
+
+.skill-cards{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   margin-top: 100px;
+    
+}
+
+.skill-card h3{
+    font-size: 40px;
+    padding: 20px 0;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgb(56, 55, 55);
+
+   
+    
+}
+
+.skill-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;  
+    background-color: #c9c6c6;
+    border-radius: 10px;
+    width: 248px;
+}
+
+.css h3{
+background:linear-gradient(90deg, green 90%,white 90%);
+
+}
+.html h3{
+background:linear-gradient(90deg, green 100%,white 0%);
+
+}
+.js h3{
+background:linear-gradient(90deg, green 20%,white 20%);
+
+}
+.ak h3{
+background:linear-gradient(90deg, green 5%,white 5%);
+
+}
+
